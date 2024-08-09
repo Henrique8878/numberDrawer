@@ -1,0 +1,57 @@
+@import url(global.css);
+@import url(utility.css);
+@import url(header.css);
+@import url(main.css);
+
+body{
+    height: 100vh;
+   display: flex;
+   flex-direction: column;
+   padding: 4rem 10rem 0rem 10rem;
+   background-color: black;
+   background-image: linear-gradient(to top, transparent 0%,black 100%),url(../assets/background-image.png);
+   color: white;
+}
+
+main{
+    display: grid;
+    grid-template-areas:
+    "A A B B"
+    "C C B B";
+}
+
+p{
+    font: var(--display-large);
+}
+
+@media(width<=430px) and (width>=350px){
+
+    body{
+        padding: 2rem 1rem 2rem 1rem;
+    }
+    main{
+        grid-template-areas: 
+        "A"
+        "B"
+        "C";
+    }
+}
+
+@media(width<350px){
+
+    body{
+        padding: 2rem 0rem 2rem 0rem;
+    }
+    main{
+        grid-template-areas: 
+        "A"
+        "B"
+        "C";
+    }
+}
+
+@media(width>430px) and (width<880px){
+    body{
+        padding:4rem 2rem 0rem 0rem;
+    }
+}

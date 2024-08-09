@@ -1,0 +1,51 @@
+:root{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*Content*/
+
+    --content-primary:#ffffff;
+    --content-secundary:#c7c9cc;
+    --content-tertiary:#d9d9d9;
+    --content-brand:#c58de7;
+    --color-inverse:#030203;
+
+    /*Background*/
+
+    --background-primary:#020202;
+    --background-secondary:#111012;
+    --background-tertiary:#24222e;
+    --background-brand:#c58de7;
+    --backround-gray:#3d3d3d;
+
+    /*Accent*/
+
+    --accent-pink:#d586e0;
+    --accent-blue:#91a1fa;
+    --accent-green:#77c0aa;
+    --accent-time:#d1dc97;
+    --accent-red:#e9a9b3;
+
+    /*Fonts*/
+
+        /*Sora*/
+        --Sora:"Sora",sans-serif;
+        --uppercase:uppercase;
+        --display-large:900 72px/130% var(--Sora);
+        --display-medium:900 40px/130% var(--Sora);
+        --display-small:bold 32px/130% var(--Sora);
+
+        /*Roboto Mono*/
+        --Roboto-mono:"Roboto Mono",monospace;
+        --overline:bold 16px/150% var(--Roboto-mono);
+
+        /*Robot flex*/
+
+        --Roboto-flex:"Roboto flex",sans-serif ;
+        --paragraph-large:500 16px/150% var(--Roboto-flex);
+        --paragraph-medium:500 14px/150% var(--Roboto-flex);
+        --paragraph-small:500 12px/150% var(--Roboto-flex);
+        --label-medium:bold 20px/150% var(--Roboto-flex);
+        --label-small:bold 16px/150% var(--Roboto-flex);
+
+}

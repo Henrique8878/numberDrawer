@@ -1,0 +1,12 @@
+header{
+    display: flex;
+    font: var(--display-small);
+    font-size: 24px;
+    margin-bottom: 5rem;
+}
+
+@media(width<=390px){
+    header{
+        margin-bottom: 1rem;
+    }
+}

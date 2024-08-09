@@ -1,0 +1,33 @@
+/*Margins*/
+
+.mg-xsm{
+    margin-bottom: .5rem;
+}
+
+.mg-sm{
+    margin-bottom: 0.75rem;
+}
+
+.mg-md{
+    margin-bottom: 2.25rem;
+}
+
+.mg-lg{
+    margin-bottom: 2.375rem;
+}
+
+.mg-xlg{
+    margin-bottom: 2.5rem;
+}
+
+.padding-horiz-240{
+    padding: 0rem 15rem 0rem 15rem;
+}
+
+.gap-11{
+    gap: 0.6875rem;
+}
+
+.gap-108{
+    gap: 6.75rem;
+}
